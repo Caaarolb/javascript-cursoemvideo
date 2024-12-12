@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            font: normal 20pt Arial;
+        }
+    </style>
+</head>
+<body>
+    <script>
+        var nome = window.prompt('Qual o seu nome?')
+        document.write(`Óla, ${nome}! Seu nome tem ${nome.length} letras.</br/>`)
+        document.write(`Seu nome em maiúsculas é ${nome.toUpperCase()} </br/>`)
+        document.write(`Seu nome em minúsculas é ${nome.toLowerCase()}`)
+
+
+
+        /*Formatando números:
+
+        var n1 = 1543.5
+        Se quiser fixar, por exemplo 2 casas, poderia usar:
+        n1.toFixed(2)
+        Se quiser trocar o . por ,:
+        n1.toFixed(2).replace('.',',')
+
+    Para colocar em formato de real, ou qualquer outra moeda:
+    n1.toLocaleString('pt-BR',{style:'currency', currency:'BRL'})
+    n1.toLocaleString('pt-BR',{style:'currency', currency:'EUR'})
+    n1.toLocaleString('pt-BR',{style:'currency', currency:'USD'})
+        */
+    </script>
+</body>
+</html>
