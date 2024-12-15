@@ -72,7 +72,7 @@
 
 <ul>
     <li>Nome: Jeisa Boaventura</li>
-    <li>Email: carolinelboaventura@gmail.com [Seu Email]</li>
+    <li>Email: carolinelboaventura@gmail.com </li>
     <li>LinkedIn:https://www.linkedin.com/in/-caroline-boaventura/</li>
 </ul>
 
